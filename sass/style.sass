@@ -1,0 +1,241 @@
+=btn_hover
+  &:hover
+    background-image: none
+    background-color: #1eacc7
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+
+
+nav
+  text-decoration: none
+  height: 50px
+  background-color: #000000
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 10px 70px
+  margin: 0
+  list-style-type: none
+  .menu_link
+    color: #f9bf3b
+    font-size: 15px
+    font-weight: 300
+  .menu_item
+    border-right: 2px dotted black
+    padding-right: 28px
+
+.subheader
+  height: 85px
+  background-color: rgba(0, 0, 0, 0.6)
+  .subheader_logo
+    display: block
+    max-width: 100%
+    margin-top: 10px
+  .subheader_official
+    margin: 1px
+    opacity: 0.8
+    color: #f9bf3b
+    font-size: 16px
+    font-weight: 400
+  .subheader_call
+    color: #ffffff
+    font-size: 12px
+    font-weight: 300
+    margin: 10px
+    text-align: right
+  .subheader_phone
+    display: block
+    margin: 8px
+    color: #ffffff
+    font-size: 20px
+    font-weight: 500
+    text-transform: uppercase
+    text-align: right
+    line-height: 10px
+  .subheader_btn
+    margin-top: 20px
+    width: 172px
+    height: 46px
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+    border: none
+    border-radius: 4px
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    color: #ffffff
+    font-size: 14px
+    font-weight: 400
+    line-height: 38px
+    text-transform: uppercase
+    +btn_hover
+
+.container
+  position: relative
+  width: 1140px
+  margin: 0 auto
+
+.top
+  background: url('../img/DSC07080.jpg') center (center / cover) no-repeat
+  padding: 25px 0 50px 0
+
+.waiting
+  min-height: 604px
+  background-color: #efefef
+  padding: 85px 0 75px 0
+  .waiting_header
+    color: #252525
+    font-family: Roboto
+    font-size: 30px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: center
+
+.trener .trener_header
+  color: #252525
+  font-family: Roboto
+  font-size: 30px
+  font-weight: 400
+  text-transform: uppercase
+  text-align: center
+  color: #ffffff
+
+.waiting .waiting_divider, .trener .trener_divider
+  width: 217px
+  height: 4px
+  background-color: #f9bf3b
+  margin: 0 auto
+  margin-top: 18px
+
+.waiting
+  .waiting_subheader
+    color: #4a4a4a
+    font-family: Roboto
+    font-size: 23px
+    font-weight: 400
+    text-align: center
+    margin-top: 17px
+  .waiting_wrapper
+    margin-top: 45px
+    font-size: 23px
+    .waiting_item
+      display: inline-block
+      vertical-align: top
+      margin: 0 15px
+      width: 340px
+      text-align: center
+      .waiting_img
+        width: 100%
+
+h1
+  margin-top: 53px
+
+.title
+  color: #f9bf3b
+  font-family: "Roboto - Black"
+  font-size: 41px
+  font-weight: 400
+  line-height: 24px
+  text-transform: uppercase
+  text-align: center
+
+h2.title
+  margin-top: 30px
+
+.simple .little_big
+  color: #ffffff
+  font-family: "Roboto - Black"
+  font-size: 80px
+  font-weight: 400
+  text-transform: uppercase
+  text-align: center
+  margin-top: 21px
+
+.promo_btn
+  display: block
+  margin: 0px auto
+  margin-top: 320px
+  width: 313px
+  height: 72px
+  border: 4px solid rgba(0, 0, 0, 0.23)
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%)
+  color: #ffffff
+  font-family: "Roboto Condensed"
+  font-size: 21px
+  font-weight: 400
+  line-height: 24px
+  text-transform: uppercase
+  cursor: pointer
+  +btn_hover
+
+.more
+  margin-top: 15px
+  .more_text
+    color: #ffffff
+    font-family: "Roboto - Thin"
+    font-size: 15px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: center
+  .more_img
+    display: block
+    margin: 0 auto
+    margin-top: 23px
+
+.optimization
+  background-color: rgb(255, 255, 255)
+  min-height: 550px
+  padding: 102px 0 107px 0
+  .optimization_header
+    margin-left: 391px
+    color: #299cbd
+    font-family: "Roboto - Black"
+    font-size: 29px
+    font-weight: 400
+    text-transform: uppercase
+  .optimization_text
+    margin-top: 25px
+    margin-left: 391px
+    color: #4a4a4a
+    font-size: 19px
+    line-height: 27px
+    font-family: "Roboto Light"
+    font-weight: 300
+    span
+      font-family: "Roboto - Bold"
+      font-weight: 700
+  .optimization_img
+    position: absolute
+    top: -34px
+    left: -240px
+
+.trener
+  min-height: 847px
+  padding: 40px 0 30px 0
+  background: url('../img/DSC07144.jpg') center (center / cover) no-repeat
+  .trener_wrapper
+    margin-top: 141px
+    display: flex
+    justify-content: space-between
+    .trener_item
+      width: 204 px
+      .trener_round
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        width: 115px
+        height: 115px
+        background-color: #b4e2ff
+        border-radius: 100%
+
+.trener_descr
+  color: #b4e2ff
+  margin: 70px 0 20px 0
+  text-align: center
+  font-family: Roboto
+  font-size: 17px
+  font-weight: 300
+  line-height: 20px
